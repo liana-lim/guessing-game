@@ -1,0 +1,25 @@
+#container {
+	width: 50%;
+	border-style: dotted;
+	border-color: #99FF66;
+	padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+	background-color: #CCFF99;
+}
+
+#content {
+	position: relative;
+	text-align: center;
+}
+
+#submitAndPlay {
+	position: relative;
+	text-align: center;
+}
+
+#showAnswer {
+	position: relative;
+	text-align: center;
+}
