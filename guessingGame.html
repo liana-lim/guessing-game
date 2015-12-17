@@ -5,19 +5,29 @@
   <meta charset="utf-8">
   <title>Guess the Number Game!</title>
   <link rel="stylesheet" href="guessingGame.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="guessingGame.js"></script>
 </head>
 
 <body>
 	<div id="container">
 		<div id="content">
-			<input type="text" name="number" placeholder= "Guess a number!">
+			<input type="text" id="guessedNumber" placeholder= "Guess a number!">
 			<div id="submitAndPlay">
-				<button type="button">Submit</button>
-				<button type="button">Play Again!</button>
+				<button type="button" id="playerGuess">Submit</button>
+				<button type="button" class="reset">Reset Game</button>
 			</div>
-			<div id="showAnswer">
-				<button type="button">Show me the answer</button>
+			<div id="hint">
+				<button type="button" id="hintBtn">I need a hint!</button>
 			</div>
+			
+			<div id="gameMessage">
+			</div>
+			<div id="guessMessage">
+			</div>
+			<div id="hintMessage">
+			</div>
+			<button type="button" class="reset" id="playAgainBtn">Play Again?</button>
 		</div>
 	</div>
 </body>

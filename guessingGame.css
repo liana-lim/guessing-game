@@ -1,5 +1,6 @@
 #container {
 	width: 50%;
+	height:250px;
 	border-style: dotted;
 	border-color: #99FF66;
 	padding-top: 3px;
@@ -14,12 +15,32 @@
 	text-align: center;
 }
 
-#submitAndPlay {
+#playerGuess {
+	position: relative;
+	text-align: center;
+
+}
+
+#reset {
 	position: relative;
 	text-align: center;
 }
 
-#showAnswer {
-	position: relative;
-	text-align: center;
+#playAgainBtn {
+	display: none;
+}
+
+#playerGuess:hover {
+	background-image:none;
+	background-color:#6699ff;
+}
+
+.reset:hover {
+	background-image:none;
+	background-color:#ff0000;
+}
+
+#hintBtn:hover {
+	background-image:none;
+	background-color:#FFFF00;
 }
